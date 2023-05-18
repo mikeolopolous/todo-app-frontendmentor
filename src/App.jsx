@@ -1,5 +1,11 @@
+import { Footer } from "./components/Footer"
+import { Header } from "./components/Header"
+
 export const App = () => {
   return (
-    <h1 className="text-center md:text-right">Hola mundo</h1>
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
