@@ -1,5 +1,5 @@
 export const App = () => {
   return (
-    <h1>Hola mundo</h1>
+    <h1 className="text-center md:text-right">Hola mundo</h1>
   )
 }
